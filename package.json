@@ -1,0 +1,23 @@
+{
+  "name": "battery-guardian",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "build:preview": "eas build -p android --profile preview",
+    "build:production": "eas build -p android --profile production"
+  },
+  "dependencies": {
+    "expo": "^51.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
